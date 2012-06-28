@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutingSession", "RoutingSession\RoutingSession.csproj", "{FEE9D075-506B-421D-850A-BA945384E663}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutingConstraints", "RoutingConstraints\RoutingConstraints.csproj", "{DDF27038-E343-41CD-9785-34BD5FC49321}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutingSession.Core", "RoutingSession.Core\RoutingSession.Core.csproj", "{98334689-2547-4009-BF65-87F148537B4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutingWithWebForms", "RoutingWithWebForms\RoutingWithWebForms.csproj", "{76DC5D7C-9A96-4E1D-981D-C5133D8A04C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{8E5D3118-E7FF-4D88-AB96-75CB41F0EE40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01", "01", "{89193A84-FB16-4251-9442-87E35BF05E38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02", "02", "{B9D65B17-77B3-4CDE-999C-E73D3E2E91D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03", "03", "{4EC6FD7F-5F77-4E03-BB53-91FFE4F5E13B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00", "00", "{0C5AF54D-4BDD-4395-8AC6-EADAD3AB8954}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OldMethodOfLoadingPages", "OldMethodOfLoadingPages\OldMethodOfLoadingPages.csproj", "{D14DB241-71B7-463F-B030-5CF10939715A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEE9D075-506B-421D-850A-BA945384E663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEE9D075-506B-421D-850A-BA945384E663}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEE9D075-506B-421D-850A-BA945384E663}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEE9D075-506B-421D-850A-BA945384E663}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDF27038-E343-41CD-9785-34BD5FC49321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF27038-E343-41CD-9785-34BD5FC49321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF27038-E343-41CD-9785-34BD5FC49321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF27038-E343-41CD-9785-34BD5FC49321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98334689-2547-4009-BF65-87F148537B4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98334689-2547-4009-BF65-87F148537B4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98334689-2547-4009-BF65-87F148537B4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98334689-2547-4009-BF65-87F148537B4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76DC5D7C-9A96-4E1D-981D-C5133D8A04C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76DC5D7C-9A96-4E1D-981D-C5133D8A04C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76DC5D7C-9A96-4E1D-981D-C5133D8A04C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76DC5D7C-9A96-4E1D-981D-C5133D8A04C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D14DB241-71B7-463F-B030-5CF10939715A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D14DB241-71B7-463F-B030-5CF10939715A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D14DB241-71B7-463F-B030-5CF10939715A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D14DB241-71B7-463F-B030-5CF10939715A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FEE9D075-506B-421D-850A-BA945384E663} = {89193A84-FB16-4251-9442-87E35BF05E38}
+		{DDF27038-E343-41CD-9785-34BD5FC49321} = {B9D65B17-77B3-4CDE-999C-E73D3E2E91D8}
+		{98334689-2547-4009-BF65-87F148537B4F} = {8E5D3118-E7FF-4D88-AB96-75CB41F0EE40}
+		{76DC5D7C-9A96-4E1D-981D-C5133D8A04C0} = {4EC6FD7F-5F77-4E03-BB53-91FFE4F5E13B}
+		{D14DB241-71B7-463F-B030-5CF10939715A} = {0C5AF54D-4BDD-4395-8AC6-EADAD3AB8954}
+	EndGlobalSection
+EndGlobal
